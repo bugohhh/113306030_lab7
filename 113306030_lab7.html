@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>113306030_Lab7</title>
+  <link rel="stylesheet" href="lab7.css">
+</head>
+<body>
+  <h1>113306030_Lab7</h1>
+  <div>
+    <label for="mathGrade">Math: </label>
+    <input type="number" id="mathGrade" placeholder="Enter Math grade">
+    <label for="englishGrade">English: </label>
+    <input type="number" id="englishGrade" placeholder="Enter English grade">
+    <button id="submitBtn">Submit</button>
+  </div>
+  <table id="gradesTable" border="1">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Math</th>
+        <th>English</th>
+        <th>Average</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+    <tfoot>
+      <tr>
+        <td>Average</td>
+        <td id="mathAverage">0.00</td>
+        <td id="englishAverage">0.00</td>
+        <td id="overallAverage">0.00</td>
+      </tr>
+    </tfoot>
+  </table>
+  <script src="lab7.js"></script>
+</body>
+</html>
